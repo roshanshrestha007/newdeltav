@@ -4,14 +4,11 @@ import {
   Link
 } from "react-router-dom";
 
-  import { useState } from 'react';
 
 function NavBar(props) {
 
   const data = localStorage.getItem("allUsers");
-  const i = localStorage.getItem("UserIndex");
   const user= JSON.parse(data) || '[]';
-  const index = parseInt(JSON.parse(i));
 
   if(user === '[]' ){
     return (

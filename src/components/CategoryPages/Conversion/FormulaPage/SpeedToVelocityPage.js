@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import Navbar from '../../../Navbar';
 
 const SpeedToVelocityConverter = () => {
   // Define a state variable to store speed and velocity
@@ -32,7 +30,6 @@ const SpeedToVelocityConverter = () => {
       <button type="submit" className="btn btn-primary mt-4" onClick={calculateVelocity}>Calculate Velocity</button>
 
       <div>
-        <h1></h1>
         <h3>Calculated Velocity:</h3>
         <p>{velocity} mph</p>
       </div>
