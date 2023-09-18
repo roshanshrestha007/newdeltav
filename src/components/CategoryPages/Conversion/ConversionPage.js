@@ -1,29 +1,11 @@
-import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../../Navbar';
 
 
 function Conversion(props) {
-    const [signupForm, setSignupForm] = useState({
-        userName: "",
-        userEmail: "",
-        userPassword: "",
-        userPassword2: "",
-        userPhone: ""
-    })
-    const [flag, setFlag] = useState(false);
+    
     const navigate = useNavigate();
-    const getDatafromLS = () => {
-        const data = localStorage.getItem('allUsers');
-        if (data) {
-            return JSON.parse(data) || '[]';
-        }
-        else {
-            return [];
-        }
-    }
+    
 
-    const [users, setUsers] = useState(getDatafromLS());
 
     function HandleSpeedtoVelocity(e) {
         // e.preventDefault();
