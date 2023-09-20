@@ -31,7 +31,6 @@ function NavBar(props) {
             </ul>
 
 
-            <h4><span className="badge bg-info">User doesn't exist <Link to="/SignupPage"><button type="button" class="btn btn-secondary">Sign up</button></Link> </span> </h4>
           </div>
         </nav>
     );
