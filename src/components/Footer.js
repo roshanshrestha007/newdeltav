@@ -4,7 +4,7 @@ function Footer() {
 
 
 <div className="container-fluid justify-content-center">
-                Group Members: Ayush Pokharel & Roshan Shrestha
+                Group Members: Ayush Pokharel & Roshan Shrestha &  Benjamin Woosley 
             </div>
 
 
