@@ -26,6 +26,9 @@ function NavBar(props) {
                 <Link to ="/SignupPage" className="nav-link">Sign up</Link>
               </li> */}
               <li className="nav-item">
+                <Link to ="/HomePage" className="nav-link">Home</Link>
+              </li>
+              <li className="nav-item">
                 <Link to ="/Calculator" className="nav-link">Calculator</Link>
               </li>
             </ul>
