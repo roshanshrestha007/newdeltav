@@ -32,7 +32,7 @@ function Calculator(props) {
     }
 
     function HandleKEES(e){
-        navigate('/KinEnergyEqvSpeedPage');
+        navigate('/KinEnergyEqvSpeedLGPage');
     }
 
     return (
@@ -43,6 +43,7 @@ function Calculator(props) {
                     <h2 className="display-4 page-header mt-3 mb-3 d-flex ">Categories</h2>
                     
                     <div>
+                        <img src= "..\..\..\Images\category image.png"></img>
                     <button className="btn btn-primary" type="button" onClick={HandelConversion}>Conversions</button><br></br><br></br>
 
                     <button className="btn btn-primary" type="button">Combined Speed</button><br></br><br></br>

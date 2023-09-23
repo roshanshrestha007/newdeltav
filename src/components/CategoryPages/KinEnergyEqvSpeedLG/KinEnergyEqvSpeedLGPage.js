@@ -18,8 +18,10 @@ function KinEnergyEqvSpeedLG(props) {
 
     return (
 
+        
         <div className="container mb-5 center">
             <div className="box justify-content-center">
+            
                 <form className="was-validated">
                     <h2 className="display-4 page-header mt-3 mb-3 d-flex ">Kinetic Energy Equivalent Speed Loss/Gain</h2>
                     
