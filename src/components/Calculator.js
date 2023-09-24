@@ -35,6 +35,10 @@ function Calculator(props) {
         navigate('/KinEnergyEqvSpeedLGPage');
     }
 
+    function HandleGradeSprelevation(e){
+        navigate('/GradeAndSuperElevationPage')
+    }
+
     return (
 
         <div className="container mb-5 center">
@@ -44,13 +48,10 @@ function Calculator(props) {
                     
                     <div>
                         <img src= "..\..\..\Images\category image.png"></img>
-                    <button className="btn btn-primary" type="button" onClick={HandelConversion}>Conversions</button><br></br><br></br>
-
-                    <button className="btn btn-primary" type="button">Combined Speed</button><br></br><br></br>
-
-
-      <button className="btn btn-primary" type="button" onClick={HandleKEES}>Kinetic Energy Equivalent Speed Loss/Gain</button><br></br><br></br> 
-
+                        <button className="btn btn-primary" type="button" onClick={HandelConversion}>Conversions</button><br></br><br></br>
+                        <button className="btn btn-primary" type="button">Combined Speed</button><br></br><br></br>
+                        <button className="btn btn-primary" type="button" onClick={HandleKEES}>Kinetic Energy Equivalent Speed Loss/Gain</button><br></br><br></br> 
+                        <button className="btn btn-primary" type="button" onClick={HandleGradeSprelevation}>Grade and Superelevation</button><br></br><br></br>
 
 
       {/* <button className="btn btn-primary" type="button">Kinetic Energy Equivalent Speed Loss/Gain</button><br></br><br></br>
